@@ -40,13 +40,13 @@ Bootstrapping is easy.  Just run this CLI command:
 Bootstrapping creates the following resources (S3 Bucket) in your AWS account and is used to move the static assets within your account.
 
 ```
- ⏳  Bootstrapping environment aws://156240685218/us-east-1...
+ ⏳  Bootstrapping environment aws://123456789012/us-east-1...
 CDKToolkit: creating CloudFormation changeset...
  0/2 | 11:42:51 | CREATE_IN_PROGRESS   | AWS::S3::Bucket | StagingBucket
  0/2 | 11:42:52 | CREATE_IN_PROGRESS   | AWS::S3::Bucket | StagingBucket Resource creation Initiated
  1/2 | 11:43:13 | CREATE_COMPLETE      | AWS::S3::Bucket | StagingBucket
  2/2 | 11:43:15 | CREATE_COMPLETE      | AWS::CloudFormation::Stack | CDKToolkit
- ✅  Environment aws://156240685218/us-east-1 bootstrapped.
+ ✅  Environment aws://123456789012/us-east-1 bootstrapped.
 ```
 
 ## Configure a Certificate for your website (optional)
